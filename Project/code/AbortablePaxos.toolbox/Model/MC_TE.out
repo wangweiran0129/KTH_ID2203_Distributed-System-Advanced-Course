@@ -1,0 +1,720 @@
+@!@!@STARTMSG 2262:0 @!@!@
+TLC2 Version 2.16 of 31 December 2020 (rev: cdddf55)
+@!@!@ENDMSG 2262 @!@!@
+@!@!@STARTMSG 2187:0 @!@!@
+Running breadth-first search Model-Checking with fp 84 and seed 7694692310874973100 with 6 workers on 12 cores with 1214MB heap and 2730MB offheap memory [pid: 20041] (Mac OS X 10.16 x86_64, AdoptOpenJDK 14.0.1 x86_64, OffHeapDiskFPSet, DiskStateQueue).
+@!@!@ENDMSG 2187 @!@!@
+@!@!@STARTMSG 2220:0 @!@!@
+Starting SANY...
+@!@!@ENDMSG 2220 @!@!@
+Parsing file /Users/wangweiran/Desktop/ID2203 Distributed System, Advanced Course/project/Weiran's Code/AbortablePaxos.toolbox/Model/MC.tla
+Parsing file /Users/wangweiran/Desktop/ID2203 Distributed System, Advanced Course/project/Weiran's Code/AbortablePaxos.toolbox/Model/AbortablePaxos.tla
+Parsing file /Applications/TLA+ Toolbox.app/Contents/Eclipse/plugins/org.lamport.tlatools_1.0.0.202012311918/tla2sany/StandardModules/TLC.tla
+Parsing file /Applications/TLA+ Toolbox.app/Contents/Eclipse/plugins/org.lamport.tlatools_1.0.0.202012311918/tla2sany/StandardModules/Integers.tla
+Parsing file /Applications/TLA+ Toolbox.app/Contents/Eclipse/plugins/org.lamport.tlatools_1.0.0.202012311918/tla2sany/StandardModules/Sequences.tla
+Parsing file /Applications/TLA+ Toolbox.app/Contents/Eclipse/plugins/org.lamport.tlatools_1.0.0.202012311918/tla2sany/StandardModules/FiniteSets.tla
+Parsing file /Applications/TLA+ Toolbox.app/Contents/Eclipse/plugins/org.lamport.tlatools_1.0.0.202012311918/tla2sany/StandardModules/Naturals.tla
+Semantic processing of module Naturals
+Semantic processing of module Integers
+Semantic processing of module Sequences
+Semantic processing of module FiniteSets
+Semantic processing of module AbortablePaxos
+Semantic processing of module TLC
+Semantic processing of module MC
+@!@!@STARTMSG 2219:0 @!@!@
+SANY finished.
+@!@!@ENDMSG 2219 @!@!@
+@!@!@STARTMSG 2185:0 @!@!@
+Starting... (2021-05-16 20:46:14)
+@!@!@ENDMSG 2185 @!@!@
+@!@!@STARTMSG 2212:0 @!@!@
+Implied-temporal checking--satisfiability problem has 1 branches.
+@!@!@ENDMSG 2212 @!@!@
+@!@!@STARTMSG 2189:0 @!@!@
+Computing initial states...
+@!@!@ENDMSG 2189 @!@!@
+@!@!@STARTMSG 2190:0 @!@!@
+Finished computing initial states: 1 distinct state generated at 2021-05-16 20:46:14.
+@!@!@ENDMSG 2190 @!@!@
+@!@!@STARTMSG 2192:0 @!@!@
+Checking temporal properties for the current state space with 14661 total distinct states at (2021-05-16 20:46:17)
+@!@!@ENDMSG 2192 @!@!@
+@!@!@STARTMSG 2267:0 @!@!@
+Finished checking temporal properties in 00s at 2021-05-16 20:46:18
+@!@!@ENDMSG 2267 @!@!@
+@!@!@STARTMSG 2200:0 @!@!@
+Progress(24) at 2021-05-16 20:46:18: 175,172 states generated (175,172 s/min), 22,650 distinct states found (22,650 ds/min), 7,990 states left on queue.
+@!@!@ENDMSG 2200 @!@!@
+@!@!@STARTMSG 2200:0 @!@!@
+Progress(33) at 2021-05-16 20:46:23: 740,051 states generated, 57,096 distinct states found, 0 states left on queue.
+@!@!@ENDMSG 2200 @!@!@
+@!@!@STARTMSG 2192:0 @!@!@
+Checking temporal properties for the complete state space with 57096 total distinct states at (2021-05-16 20:46:23)
+@!@!@ENDMSG 2192 @!@!@
+@!@!@STARTMSG 2267:0 @!@!@
+Finished checking temporal properties in 00s at 2021-05-16 20:46:24
+@!@!@ENDMSG 2267 @!@!@
+@!@!@STARTMSG 2193:0 @!@!@
+Model checking completed. No error has been found.
+  Estimates of the probability that TLC did not check all reachable states
+  because two distinct states had the same fingerprint:
+  calculated (optimistic):  val = 2.1E-9
+  based on the actual fingerprints:  val = 1.2E-9
+@!@!@ENDMSG 2193 @!@!@
+@!@!@STARTMSG 2201:0 @!@!@
+The coverage statistics at 2021-05-16 20:46:25
+@!@!@ENDMSG 2201 @!@!@
+@!@!@STARTMSG 2773:0 @!@!@
+<Init line 171, col 1 to line 171, col 4 of module AbortablePaxos>: 1:1
+@!@!@ENDMSG 2773 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 172, col 9 to line 186, col 68 of module AbortablePaxos: 1
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2772:0 @!@!@
+<A line 188, col 1 to line 188, col 7 of module AbortablePaxos>: 11421:656004
+@!@!@ENDMSG 2772 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 188, col 15 to line 188, col 28 of module AbortablePaxos: 342432
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 188, col 15 to line 188, col 22 of module AbortablePaxos: 171288
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 190, col 24 to line 190, col 40 of module AbortablePaxos: 1092
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 190, col 24 to line 190, col 25 of module AbortablePaxos: 513864
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 190, col 29 to line 190, col 40 of module AbortablePaxos: 513864
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 161, col 34 to line 161, col 41 of module AbortablePaxos: 14484
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 161, col 34 to line 161, col 39 of module AbortablePaxos: 13392
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 161, col 41 to line 161, col 41 of module AbortablePaxos: 13392
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 161, col 46 to line 161, col 54 of module AbortablePaxos: 4368
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 161, col 46 to line 161, col 50 of module AbortablePaxos: 3276
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 161, col 54 to line 161, col 54 of module AbortablePaxos: 3276
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 161, col 31 to line 161, col 31 of module AbortablePaxos: 3348
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 190, col 55 to line 190, col 60 of module AbortablePaxos: 3348
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 190, col 74 to line 190, col 75 of module AbortablePaxos: 3276
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 191, col 23 to line 191, col 60 of module AbortablePaxos: 1092
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 192, col 23 to line 192, col 125 of module AbortablePaxos: 1092
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 193, col 23 to line 193, col 59 of module AbortablePaxos: 1092
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 194, col 24 to line 194, col 41 of module AbortablePaxos: 171072
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 194, col 24 to line 194, col 25 of module AbortablePaxos: 513864
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 194, col 30 to line 194, col 41 of module AbortablePaxos: 513864
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 196, col 25 to line 198, col 133 of module AbortablePaxos: 336960
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 195, col 32 to line 195, col 55 of module AbortablePaxos: 173520
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2775:0 @!@!@
+  |line 157, col 21 to line 157, col 59 of module AbortablePaxos: 173520:510480
+@!@!@ENDMSG 2775 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||line 157, col 36 to line 157, col 58 of module AbortablePaxos: 835104
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |||line 157, col 36 to line 157, col 45 of module AbortablePaxos: 835104
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |||line 157, col 50 to line 157, col 58 of module AbortablePaxos: 340632
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||line 157, col 28 to line 157, col 33 of module AbortablePaxos: 173520
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 195, col 53 to line 195, col 54 of module AbortablePaxos: 173112
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 199, col 23 to line 199, col 39 of module AbortablePaxos: 336960
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 200, col 24 to line 200, col 41 of module AbortablePaxos: 170496
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 200, col 24 to line 200, col 25 of module AbortablePaxos: 513864
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 200, col 30 to line 200, col 41 of module AbortablePaxos: 513864
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 202, col 25 to line 203, col 109 of module AbortablePaxos: 317952
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 201, col 32 to line 201, col 55 of module AbortablePaxos: 173520
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2775:0 @!@!@
+  |line 157, col 21 to line 157, col 59 of module AbortablePaxos: 173520:491472
+@!@!@ENDMSG 2775 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||line 157, col 36 to line 157, col 58 of module AbortablePaxos: 835104
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |||line 157, col 36 to line 157, col 45 of module AbortablePaxos: 835104
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |||line 157, col 50 to line 157, col 58 of module AbortablePaxos: 321024
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||line 157, col 28 to line 157, col 33 of module AbortablePaxos: 173520
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 201, col 53 to line 201, col 54 of module AbortablePaxos: 172416
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 204, col 23 to line 204, col 56 of module AbortablePaxos: 317952
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 189, col 25 to line 189, col 31 of module AbortablePaxos: 171288
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 205, col 15 to line 205, col 45 of module AbortablePaxos: 656004
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 206, col 15 to line 206, col 71 of module AbortablePaxos: 656004
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2772:0 @!@!@
+<L line 210, col 1 to line 210, col 7 of module AbortablePaxos>: 12982:31174
+@!@!@ENDMSG 2772 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 210, col 15 to line 210, col 28 of module AbortablePaxos: 145366
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 210, col 15 to line 210, col 22 of module AbortablePaxos: 114192
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 211, col 18 to line 211, col 57 of module AbortablePaxos: 31174
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 211, col 18 to line 211, col 34 of module AbortablePaxos: 31174
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 211, col 39 to line 211, col 57 of module AbortablePaxos: 14790
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 212, col 23 to line 212, col 58 of module AbortablePaxos: 14790
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 213, col 23 to line 213, col 58 of module AbortablePaxos: 16384
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 214, col 15 to line 215, col 62 of module AbortablePaxos: 31174
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2772:0 @!@!@
+<P1L line 217, col 1 to line 217, col 9 of module AbortablePaxos>: 8169:14806
+@!@!@ENDMSG 2772 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 217, col 17 to line 217, col 32 of module AbortablePaxos: 128998
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 217, col 17 to line 217, col 24 of module AbortablePaxos: 114192
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 218, col 20 to line 218, col 39 of module AbortablePaxos: 14806
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 219, col 28 to line 219, col 62 of module AbortablePaxos: 14278
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 220, col 31 to line 220, col 45 of module AbortablePaxos: 14278
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 221, col 39 to line 221, col 71 of module AbortablePaxos: 14274
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 222, col 39 to line 222, col 54 of module AbortablePaxos: 14274
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 223, col 36 to line 224, col 72 of module AbortablePaxos: 4
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 225, col 28 to line 225, col 60 of module AbortablePaxos: 528
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 226, col 28 to line 226, col 52 of module AbortablePaxos: 528
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 227, col 17 to line 228, col 52 of module AbortablePaxos: 14806
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2772:0 @!@!@
+<CP1L line 230, col 1 to line 230, col 10 of module AbortablePaxos>: 7:16
+@!@!@ENDMSG 2772 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 230, col 18 to line 230, col 34 of module AbortablePaxos: 114208
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 230, col 18 to line 230, col 25 of module AbortablePaxos: 114192
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 231, col 21 to line 231, col 74 of module AbortablePaxos: 16
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 231, col 21 to line 231, col 62 of module AbortablePaxos: 32
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||line 231, col 33 to line 231, col 61 of module AbortablePaxos: 32
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |||line 158, col 19 to line 158, col 55 of module AbortablePaxos: 32
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||||line 158, col 32 to line 158, col 54 of module AbortablePaxos: 48
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||||line 158, col 26 to line 158, col 29 of module AbortablePaxos: 32
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |||line 231, col 54 to line 231, col 60 of module AbortablePaxos: 28
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 231, col 67 to line 231, col 74 of module AbortablePaxos: 32
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 162, col 22 to line 162, col 57 of module AbortablePaxos: 32
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 162, col 34 to line 162, col 56 of module AbortablePaxos: 32
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||line 162, col 47 to line 162, col 55 of module AbortablePaxos: 48
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||line 162, col 41 to line 162, col 44 of module AbortablePaxos: 32
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 162, col 62 to line 162, col 69 of module AbortablePaxos: 32
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 232, col 36 to line 232, col 42 of module AbortablePaxos: 28
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 233, col 21 to line 233, col 45 of module AbortablePaxos: 16
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 233, col 23 to line 233, col 45 of module AbortablePaxos: 16
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||line 162, col 22 to line 162, col 69 of module AbortablePaxos: 16
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |||line 162, col 22 to line 162, col 57 of module AbortablePaxos: 16
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||||line 162, col 34 to line 162, col 56 of module AbortablePaxos: 16
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |||||line 162, col 47 to line 162, col 55 of module AbortablePaxos: 36
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |||||line 162, col 41 to line 162, col 44 of module AbortablePaxos: 16
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |||line 162, col 62 to line 162, col 69 of module AbortablePaxos: 16
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||line 233, col 38 to line 233, col 44 of module AbortablePaxos: 16
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 234, col 29 to line 234, col 70 of module AbortablePaxos: 16
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 235, col 29 to line 235, col 109 of module AbortablePaxos: 16
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 235, col 37 to line 235, col 109 of module AbortablePaxos: 16
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||line 235, col 38 to line 235, col 41 of module AbortablePaxos: 16
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||line 235, col 50 to line 235, col 108 of module AbortablePaxos: 16
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||line 235, col 60 to line 235, col 108 of module AbortablePaxos: 16
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |||line 235, col 66 to line 235, col 108 of module AbortablePaxos: 16
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2775:0 @!@!@
+  ||||line 154, col 21 to line 154, col 40 of module AbortablePaxos: 16:10656
+@!@!@ENDMSG 2775 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |||||line 154, col 22 to line 154, col 29 of module AbortablePaxos: 36
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |||||line 154, col 39 to line 154, col 39 of module AbortablePaxos: 16
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||||line 235, col 80 to line 235, col 107 of module AbortablePaxos: 16
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2775:0 @!@!@
+  |||||line 158, col 19 to line 158, col 55 of module AbortablePaxos: 16:52
+@!@!@ENDMSG 2775 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||||||line 158, col 32 to line 158, col 54 of module AbortablePaxos: 36
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||||||line 158, col 26 to line 158, col 29 of module AbortablePaxos: 16
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |||||line 235, col 100 to line 235, col 106 of module AbortablePaxos: 16
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 237, col 29 to line 237, col 57 of module AbortablePaxos: 0
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 238, col 18 to line 238, col 50 of module AbortablePaxos: 16
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 239, col 18 to line 240, col 50 of module AbortablePaxos: 16
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2772:0 @!@!@
+<P2L line 242, col 1 to line 242, col 9 of module AbortablePaxos>: 384:528
+@!@!@ENDMSG 2772 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 242, col 17 to line 242, col 32 of module AbortablePaxos: 114720
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 242, col 17 to line 242, col 24 of module AbortablePaxos: 114192
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 243, col 20 to line 243, col 68 of module AbortablePaxos: 528
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 244, col 25 to line 244, col 144 of module AbortablePaxos: 528
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 245, col 28 to line 245, col 145 of module AbortablePaxos: 0
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 246, col 17 to line 246, col 50 of module AbortablePaxos: 528
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 247, col 17 to line 248, col 55 of module AbortablePaxos: 528
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2772:0 @!@!@
+<CP2L line 250, col 1 to line 250, col 10 of module AbortablePaxos>: 1192:4752
+@!@!@ENDMSG 2772 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 250, col 18 to line 250, col 34 of module AbortablePaxos: 116304
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 250, col 18 to line 250, col 25 of module AbortablePaxos: 114192
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 251, col 21 to line 251, col 85 of module AbortablePaxos: 2112
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 251, col 21 to line 251, col 73 of module AbortablePaxos: 4224
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||line 251, col 33 to line 251, col 72 of module AbortablePaxos: 4224
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |||line 159, col 22 to line 159, col 72 of module AbortablePaxos: 4224
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||||line 159, col 35 to line 159, col 71 of module AbortablePaxos: 25056
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |||||line 159, col 35 to line 159, col 57 of module AbortablePaxos: 25056
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||||||line 159, col 35 to line 159, col 44 of module AbortablePaxos: 25056
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||||||line 159, col 49 to line 159, col 57 of module AbortablePaxos: 15552
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |||||line 159, col 62 to line 159, col 71 of module AbortablePaxos: 15552
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||||line 159, col 29 to line 159, col 32 of module AbortablePaxos: 4224
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |||line 251, col 56 to line 251, col 62 of module AbortablePaxos: 4208
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |||line 251, col 65 to line 251, col 71 of module AbortablePaxos: 4208
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 251, col 78 to line 251, col 85 of module AbortablePaxos: 4224
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 162, col 22 to line 162, col 57 of module AbortablePaxos: 4224
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 162, col 34 to line 162, col 56 of module AbortablePaxos: 4224
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||line 162, col 47 to line 162, col 55 of module AbortablePaxos: 25056
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||line 162, col 41 to line 162, col 44 of module AbortablePaxos: 4224
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 162, col 62 to line 162, col 69 of module AbortablePaxos: 4224
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 252, col 36 to line 252, col 42 of module AbortablePaxos: 4224
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 253, col 21 to line 253, col 43 of module AbortablePaxos: 2112
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 162, col 22 to line 162, col 69 of module AbortablePaxos: 2112
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||line 162, col 22 to line 162, col 57 of module AbortablePaxos: 2112
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |||line 162, col 34 to line 162, col 56 of module AbortablePaxos: 2112
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||||line 162, col 47 to line 162, col 55 of module AbortablePaxos: 14112
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||||line 162, col 41 to line 162, col 44 of module AbortablePaxos: 2112
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||line 162, col 62 to line 162, col 69 of module AbortablePaxos: 2112
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 253, col 36 to line 253, col 42 of module AbortablePaxos: 2112
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 254, col 29 to line 254, col 71 of module AbortablePaxos: 0
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 255, col 29 to line 255, col 36 of module AbortablePaxos: 0
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 257, col 31 to line 257, col 62 of module AbortablePaxos: 4752
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 256, col 38 to line 256, col 77 of module AbortablePaxos: 2112
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2775:0 @!@!@
+  |line 159, col 22 to line 159, col 72 of module AbortablePaxos: 2112:6864
+@!@!@ENDMSG 2775 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||line 159, col 35 to line 159, col 71 of module AbortablePaxos: 14112
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |||line 159, col 35 to line 159, col 57 of module AbortablePaxos: 14112
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||||line 159, col 35 to line 159, col 44 of module AbortablePaxos: 14112
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||||line 159, col 49 to line 159, col 57 of module AbortablePaxos: 9360
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |||line 159, col 62 to line 159, col 71 of module AbortablePaxos: 9360
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||line 159, col 29 to line 159, col 32 of module AbortablePaxos: 2112
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 256, col 61 to line 256, col 67 of module AbortablePaxos: 2112
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 256, col 70 to line 256, col 76 of module AbortablePaxos: 2112
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 258, col 29 to line 258, col 45 of module AbortablePaxos: 4752
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 259, col 18 to line 259, col 50 of module AbortablePaxos: 4752
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 260, col 18 to line 261, col 52 of module AbortablePaxos: 4752
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2772:0 @!@!@
+<P3L line 263, col 1 to line 263, col 9 of module AbortablePaxos>: 1480:2112
+@!@!@ENDMSG 2772 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 263, col 17 to line 263, col 32 of module AbortablePaxos: 116304
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 263, col 17 to line 263, col 24 of module AbortablePaxos: 114192
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 264, col 20 to line 264, col 37 of module AbortablePaxos: 2112
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 265, col 25 to line 266, col 62 of module AbortablePaxos: 2112
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 268, col 28 to line 268, col 52 of module AbortablePaxos: 0
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 269, col 17 to line 269, col 47 of module AbortablePaxos: 2112
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 270, col 17 to line 271, col 52 of module AbortablePaxos: 2112
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2772:0 @!@!@
+<END line 273, col 1 to line 273, col 9 of module AbortablePaxos>: 21460:30658
+@!@!@ENDMSG 2772 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 273, col 17 to line 273, col 32 of module AbortablePaxos: 144850
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 273, col 17 to line 273, col 24 of module AbortablePaxos: 114192
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 274, col 17 to line 274, col 20 of module AbortablePaxos: 30658
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 275, col 17 to line 275, col 50 of module AbortablePaxos: 30658
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 276, col 17 to line 277, col 64 of module AbortablePaxos: 30658
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2774:0 @!@!@
+<Validity line 291, col 1 to line 291, col 8 of module AbortablePaxos>
+@!@!@ENDMSG 2774 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 291, col 13 to line 291, col 131 of module AbortablePaxos: 57096
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 291, col 30 to line 291, col 131 of module AbortablePaxos: 275392
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||line 291, col 30 to line 291, col 46 of module AbortablePaxos: 275392
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||line 291, col 51 to line 291, col 131 of module AbortablePaxos: 105984
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |||line 291, col 70 to line 291, col 131 of module AbortablePaxos: 261120
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||||line 291, col 70 to line 291, col 109 of module AbortablePaxos: 261120
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |||||line 291, col 70 to line 291, col 88 of module AbortablePaxos: 261120
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |||||line 291, col 93 to line 291, col 109 of module AbortablePaxos: 155136
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||||line 291, col 114 to line 291, col 131 of module AbortablePaxos: 105984
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |||line 291, col 62 to line 291, col 67 of module AbortablePaxos: 105984
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 291, col 22 to line 291, col 27 of module AbortablePaxos: 57096
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2774:0 @!@!@
+<Uniform_Agreement line 293, col 1 to line 293, col 17 of module AbortablePaxos>
+@!@!@ENDMSG 2774 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 293, col 22 to line 293, col 152 of module AbortablePaxos: 57096
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 293, col 50 to line 293, col 152 of module AbortablePaxos: 513864
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||line 293, col 66 to line 293, col 152 of module AbortablePaxos: 1027728
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |||line 293, col 67 to line 293, col 112 of module AbortablePaxos: 1027728
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||||line 293, col 67 to line 293, col 87 of module AbortablePaxos: 1027728
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||||line 293, col 92 to line 293, col 112 of module AbortablePaxos: 476928
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |||line 293, col 118 to line 293, col 152 of module AbortablePaxos: 317952
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||line 293, col 59 to line 293, col 63 of module AbortablePaxos: 513864
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 293, col 40 to line 293, col 47 of module AbortablePaxos: 57096
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2774:0 @!@!@
+<Integrity line 295, col 1 to line 295, col 9 of module AbortablePaxos>
+@!@!@ENDMSG 2774 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 295, col 14 to line 295, col 179 of module AbortablePaxos: 57096
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 295, col 42 to line 295, col 179 of module AbortablePaxos: 513864
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||line 295, col 58 to line 295, col 179 of module AbortablePaxos: 1027728
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |||line 295, col 59 to line 295, col 104 of module AbortablePaxos: 1027728
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||||line 295, col 59 to line 295, col 79 of module AbortablePaxos: 1027728
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||||line 295, col 84 to line 295, col 104 of module AbortablePaxos: 476928
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |||line 295, col 110 to line 295, col 179 of module AbortablePaxos: 317952
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  ||line 295, col 51 to line 295, col 55 of module AbortablePaxos: 513864
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  |line 295, col 32 to line 295, col 39 of module AbortablePaxos: 57096
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2202:0 @!@!@
+End of statistics.
+@!@!@ENDMSG 2202 @!@!@
+@!@!@STARTMSG 2200:0 @!@!@
+Progress(33) at 2021-05-16 20:46:25: 740,051 states generated (3,744,565 s/min), 57,096 distinct states found (288,898 ds/min), 0 states left on queue.
+@!@!@ENDMSG 2200 @!@!@
+@!@!@STARTMSG 2199:0 @!@!@
+740051 states generated, 57096 distinct states found, 0 states left on queue.
+@!@!@ENDMSG 2199 @!@!@
+@!@!@STARTMSG 2194:0 @!@!@
+The depth of the complete state graph search is 33.
+@!@!@ENDMSG 2194 @!@!@
+@!@!@STARTMSG 2268:0 @!@!@
+The average outdegree of the complete state graph is 1 (minimum is 0, the maximum 6 and the 95th percentile is 3).
+@!@!@ENDMSG 2268 @!@!@
+@!@!@STARTMSG 2186:0 @!@!@
+Finished in 11863ms at (2021-05-16 20:46:25)
+@!@!@ENDMSG 2186 @!@!@
